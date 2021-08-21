@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development"
+  }
+}
