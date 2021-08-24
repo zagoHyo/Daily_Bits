@@ -1,0 +1,49 @@
+section.hero.intro {
+    background-color: #873DEC;
+    position:absolute;
+    width:100vw;
+    z-index: 999;
+}
+
+section.hero.form {
+    background-color: black;
+    z-index: -10;
+}
+button.danger {
+    background-color: #f03a5f;
+    border-color: transparent;
+    border-radius:5px;
+    height: 5vh;
+    color: #fff;
+}
+article.media{
+    width:59vw;
+}
+.input_inicio {
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    max-width: 55vw;
+    width: 23vw;
+    height: 5vh;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #363636;
+    position:relative;
+    top:7px;
+}
+input.inicio{
+    z-index: 100;
+}
+body{
+    overflow: hidden
+}
+@media (max-width: 560px){
+    .input_inicio{ 
+        max-width: 55vw;
+        height: 6vh;
+        width: 60vw;
+    }
+    button.danger {
+        height:6vh;
+    }
+}

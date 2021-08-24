@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "bulma-extensions": "^6.2.7"
+  },
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0"
+  }
+}
