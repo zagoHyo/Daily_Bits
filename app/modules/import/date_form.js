@@ -11,25 +11,30 @@ function pintar_Intro(){
 }
 
 // =========================================================
-
 function section_intro(){
  let form = document.querySelector('.form')
  form.innerHTML = `
- <section class="hero form is-fullheight" id="animated">
- <div class="hero-body is-justify-content-center is-flex-direction-column">
-     <img src="./image/logo/Color=Purple, Container=Yes.png" alt="" width="80px" height="80px">
-     <h1 class="is-size-1 title has-text-light">Iniciar sesión</h1>
-     <div id="elimiti">
-         <button class="danger">Continuar como invitado</button>
-     </div>
-     <article class="media my-3"></article><article class="media"></article>
-     <label for="" class="my-1">Correo Electronico</label>
-     <input class="input_inicio" type="text" placeholder="Text input">
-     <label for="" class="my-3"><a href="" style="color:green">¿Se te olvidó tu contraseña?</a></label>
-     <label for="">¿Aún no tienes una cuenta? <a href="" style="color:green">Inscribirse</a></label>
-     </div>
-</section>
- `
+        <section class="hero form is-fullheight" id="animated">
+        <div class="hero-body is-flex-direction-column">
+                <img src="./image/logo/Color=Purple, Container=Yes.png" alt="" width="80px" height="80px" class="m-5">
+                <h1 class="is-size-1 title has-text-light">Iniciar sesión</h1>
+            <button class="button is-danger"><img src="./image/logo_invitado.png" class="m-2" alt=""> Continuar como invitado</button>
+            <article class="media my-3"></article><article class="media"></article>
+            <div>
+                <div>
+                <label class="m-3 py-1 has-text-left has-text-light">Correo Electrónico</label>
+                <input class="input" id="email" type="email" placeholder="Correo">
+                <label class="m-3 py-1 has-text-left has-text-light">Contraseña</label>
+                <input class="input" id="password" type="password" placeholder="Contraseña">
+                </div>
+                </div>
+                <div class="is-justify-content-center" id="go">
+                <button class="button is-success m-3" id="iniciar">Iniciar</button>
+                </div>
+            <label for="" class="my-3"><a href="" style="color:green">¿Se te olvidó tu contraseña?</a></label>
+            <label for="" class="has-text-light">¿Aún no tienes una cuenta? <a href="" style="color:green">Registrate</a></label>
+        </div>
+        </section>
+     `
 }
-
 export {pintar_Intro, section_intro}
