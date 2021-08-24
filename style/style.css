@@ -14,7 +14,7 @@ section.hero.form {
 }
 
 article.media{
-    width:59vw;
+    width:46vw;
 }
 
 .button.is-danger {
@@ -26,16 +26,16 @@ article.media{
 }
 .input, .textarea {
     box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
-    width: 50%;
+    width: 65vh;
     position: static;
 }
 
 body{
     overflow: hidden
 }
-@media (max-width: 360px){
+@media (max-width: 560px){
     .input, .textarea{ 
-        width: 100% !important;
+        width: 50vh !important;
     }
     .button.is-danger {
         height:6vh;
@@ -43,5 +43,8 @@ body{
     }
     article.media{
         width:100%;
+    }
+    h1.title{
+        font-size: 2rem !important;
     }
 }
