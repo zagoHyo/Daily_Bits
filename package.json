@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "bulma": "^0.9.3",
-    "bulma-extensions": "^6.2.7"
+    "bulma-extensions": "^6.2.7",
+    "progressbar.js": "^1.1.0"
   },
   "devDependencies": {
     "@creativebulma/bulma-divider": "^1.1.0"
