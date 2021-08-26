@@ -13,8 +13,9 @@ function pintar_Intro(){
 // =========================================================
 function section_intro(){
  let form = document.querySelector('.form')
+ form.innerHTML = ''
  form.innerHTML = `
-        <section class="hero form is-fullheight" id="animated">
+        <section class="hero form is-fullheight" id="formulario">
             <div class="hero-body is-flex-direction-column">
                     <img src="./image/logo/Color=Purple, Container=Yes.png" alt="" width="80px" height="80px" class="m-5">
                     <h1 class="is-size-1 title has-text-light">Iniciar sesión</h1>
@@ -36,9 +37,57 @@ function section_intro(){
                     <button class="button is-success m-2" id="iniciar">Iniciar</button>
                     </div>
                 <label for="" class="my-1"><a href="" style="color:green">¿Se te olvidó tu contraseña?</a></label>
-                <label for="" class="has-text-light">¿Aún no tienes una cuenta? <a href="" style="color:green">Registrate</a></label>
+                <label for="" class="has-text-light">¿Aún no tienes una cuenta? <a style="color:green" id="registrate">Registrate</a></label>
             </div>
         </section>
      `
 }
-export {pintar_Intro, section_intro}
+
+function section_registro(){
+    let form = document.querySelector('.form')
+    form.innerHTML = ''
+    form.innerHTML = `
+    <section class="hero form is-fullheight" id="formulario">
+    <div class="hero-body is-flex-direction-column is-justify-content-center">
+        <img src="./image/logo/Color=Purple, Container=Yes.png" alt="" width="80px" height="80px" class="m-5">
+        <div class="field">
+            <label class="label">Nombre</label>
+            <div class="control">
+            <input class="input" type="text" placeholder="Nombre">
+            </div>
+        </div>
+        
+        <div class="field">
+            <label class="label">Nombre de usuario</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="Nombre de usuario">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Correo Electronico</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="Correo">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Contraseña</label>
+            <div class="control">
+                <input class="input" type="password" placeholder="Contraseña">
+            </div>
+        </div>
+        
+        <div class="field is-grouped m-3">
+            <div class="control">
+            <button class="button is-success" id="crear">Crear usuario</button>
+            </div>
+            <div class="control">
+            <button class="button is-link is-light" id="cancelar"><a href="index.html">Cancelar</a></button>
+            </div>
+        </div></div>
+    </section>
+    `
+}
+
+export {pintar_Intro, section_intro, section_registro}

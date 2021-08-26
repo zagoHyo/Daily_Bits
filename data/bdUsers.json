@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+        {
+            "nombre": "userName",
+            "correo": "chernani2003@gmail.com",
+            "contraseña": "000",
+            "id": 1
+        }
+    ]
+}

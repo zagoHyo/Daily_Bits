@@ -7,7 +7,7 @@ function animatedForm(){
   let form = gsap.to(".form", {
     duration: 2, 
     y: 2000, 
-    delay: 1
+    delay: 1,
 });
 }
 export {intro, animatedForm}

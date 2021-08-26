@@ -4,14 +4,19 @@ section.hero.intro {
     width:100vw;
     z-index: 999;
 }
-
-section.hero.form {
-    background-color: black;
-    z-index: -10;
-}
-section.hero.section_selected{
+main#main{
     background-color:black
 }
+section.hero.form {
+    background-color: black;
+    z-index: 998;
+}
+section.hero.section_selected{
+    position: absolute !important;
+    top:0;
+    width:100vw;
+}
+
 .button.is-danger {
     position: static ;
 }
