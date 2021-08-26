@@ -10,4 +10,21 @@ function animatedForm(){
     delay: 1,
 });
 }
-export {intro, animatedForm}
+function alerta(){
+  form.innerHTML = `
+  <section class="hero is-danger is-fullheight">
+  <div class="hero-body">
+    <div class="">
+      <p class="title">
+        Fullheight hero
+      </p>
+      <p class="subtitle">
+        Fullheight subtitle
+      </p>
+    </div>
+  </div>
+  </section>
+  `
+}
+
+export {intro, animatedForm, alerta}

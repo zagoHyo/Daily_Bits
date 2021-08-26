@@ -27,10 +27,6 @@ function section_intro(){
                     <label class="m-3 py-1 has-text-left has-text-light">Correo Electrónico</label>
                     </div>
                     <input class="input" id="email" type="email" placeholder="Correo">
-                    <div>
-                    <label class="m-3 py-1 has-text-left has-text-light">Contraseña</label>
-                    </div>
-                    <input class="input" id="password" type="password" placeholder="Contraseña">
                     </div>
                     </div>
                     <div class="is-justify-content-center" id="go">
@@ -56,18 +52,12 @@ function section_registro(){
             <input class="input" type="text" placeholder="Nombre" id="nombre">
             </div>
         </div>
-        
-        <div class="field">
-            <label class="label">Nombre de usuario</label>
-            <div class="control">
-                <input class="input" type="email" id="nombreUser" placeholder="Nombre de usuario">
-            </div>
-        </div>
 
         <div class="field">
             <label class="label">Correo Electronico</label>
             <div class="control">
                 <input class="input" type="email" id="email" placeholder="Correo">
+              
             </div>
         </div>
 
@@ -80,7 +70,7 @@ function section_registro(){
         
         <div class="field is-grouped m-3">
             <div class="control">
-            <button class="button is-success" id="registro_user">Crear usuario</button>
+            <button type="button" class="button is-success" id="registro_user">Crear usuario</button>
             </div>
             <div class="control">
             <button class="button is-link is-light" id="cancelar"><a href="">Cancelar</a></button>
