@@ -9,32 +9,8 @@
     {
       "nombre": "hernani",
       "correo": "chernani@gmail.com",
-      "contraseña": "21123",
-      "id": 2
-    },
-    {
-      "nombre": "hernani",
-      "correo": "chernani@gmail.com",
       "contraseña": "2222222",
-      "id": 3
-    },
-    {
-      "nombre": "hernani",
-      "correo": "chernani@gmail.com",
-      "contraseña": "qwq213213",
-      "id": 4
-    },
-    {
-      "nombre": "hernani",
-      "correo": "chernani@gmail.com",
-      "contraseña": "22222222",
-      "id": 5
-    },
-    {
-      "nombre": "hernani",
-      "correo": "chernani@gmail.com",
-      "contraseña": "222222",
-      "id": 6
+      "id": 2
     }
   ]
 }

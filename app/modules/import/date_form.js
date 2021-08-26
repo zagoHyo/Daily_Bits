@@ -19,7 +19,7 @@ function section_intro(){
             <div class="hero-body is-flex-direction-column">
                     <img src="./image/logo/Color=Purple, Container=Yes.png" alt="" width="80px" height="80px" class="m-5">
                     <h1 class="is-size-1 title has-text-light">Iniciar sesión</h1>
-                <button class="button is-danger" id="invitado"><img src="./image/logo_invitado.png" class="m-2" alt=""> Continuar como invitado</button>
+                <button class="button is-danger" id="invitado"><img src="./image/google.png" class="m-2" alt=""> Continuar con Google</button>
                 <article class="media my-3"></article><article class="media"></article>
                 <div>
                     <div>

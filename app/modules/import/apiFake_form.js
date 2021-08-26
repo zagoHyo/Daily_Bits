@@ -9,7 +9,7 @@ const crear = async () => {
         let contraseña = document.getElementById('password').value
         let local = await fetch('http://localhost:4000/usuarios');
         let data = await local.json()
-        if(nombre, email, contraseña !== "" && data.find(user => user.correo === email)){
+        if(nombre, email, contraseña !== "" && data.find(user => user.correo !== email)){
         let resp = await fetch('http://localhost:4000/usuarios',{
             method: 'POST',
             body: JSON.stringify({
@@ -20,8 +20,7 @@ const crear = async () => {
             headers: { 
                 "Content-Type": "application/json; charset=UTF-8"
             }})
-        } else {
-        }
+        } 
 }
 
 const inicio = async () => {

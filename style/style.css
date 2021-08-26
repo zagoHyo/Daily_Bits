@@ -82,7 +82,9 @@ div.hero-foot{
     background-position: center;
     background-size: 70px 70px;
 }
-
+.items{
+    width: 32vw
+}
 #css {
     margin: 20px;
     width: 80px;

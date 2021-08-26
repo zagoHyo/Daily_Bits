@@ -1,0 +1,63 @@
+{
+    "respuestaUnica": [
+        {
+            "titulo": "¿Qué es HTML?",
+            "opciones":{
+                "false1": "Un framework",
+                "false2": "Una implementación artistica",
+                "false3": "Una comida",
+                "true": "Un lenguaje de formato de texto"
+            }
+        },
+        {
+            "titulo": "¿Qué son las etiquetas en HTML?",
+            "opciones":{
+                "false1": "Constantes",
+                "false2": "Funciones",
+                "true": "Lo que da formato al texto",
+                "false3": "Todas son correctas"
+            }
+        },
+        {
+            "titulo": "¿Cual de estas etiquetas forma parte de una lista?",
+            "opciones":{
+                "false1": "<hr>",
+                "false2": "<br>",
+                "true": "<li>",
+                "false4": "<br>"
+            }
+        },
+        {
+            "titulo": "¿De que manera se puede insertar un comentario en HTML?",
+            "opciones": {
+                "true": "<!-- Comentario -->",
+                "false2": "<br> Comentario </br>",
+                "false3": "<li> Comentario </li>",
+                "false4": "Todas son correctas"
+            }
+        }
+    ],
+    "estructura": [
+        {
+            "titulo": "Organiza la estructura de un documento HTML5",
+            "opciones": {
+                "1": "<!DOCTYPE html>",
+                "2": "<html>",
+                "3": "<head></head>",
+                "4": "<body></body>",
+                "5": "</html>"
+            }
+        }
+    ],
+    "imagen": [
+        {
+            "titulo": "¿Cual Framework permite escribir css desde html atravez de clases?",
+            "opciones": {
+                "false1": "./image/Property 1=Angular.png",
+                "flase2": "./image/Property 1=express.png",
+                "true": "./image/bootstrap.png",
+                "false4": "./image/Property 1=Linux.png"
+            }
+        }
+    ]
+}
