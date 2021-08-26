@@ -7,7 +7,8 @@
                 "false2": "Una implementación artistica",
                 "false3": "Una comida",
                 "true": "Un lenguaje que da vida al HTML"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Cual es la diferencia entre HTML y CSS?",
@@ -16,7 +17,8 @@
                 "false2": "CSS es un framework",
                 "true": "HTML crea contenido y css le da color al contenido",
                 "false3": "Todas son correctas"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Como puedes aplicar estilos CSS a una página web?",
@@ -25,7 +27,8 @@
                 "false2": "Con Links",
                 "false3": "Con clases",
                 "true": "Todas son correctas"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Cuantos tipos de css existen?",
@@ -34,7 +37,8 @@
                 "false2": "2",
                 "false3": "10",
                 "false4": "1"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "estructura": [
@@ -46,7 +50,8 @@
                 "3": "\"stylesheet\"",
                 "4": "href=\"",
                 "5": "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\">"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "imagen": [
@@ -57,7 +62,8 @@
                 "flase2": "./image/Property 1=express.png",
                 "false3": "./image/Property 1=Angular.png",
                 "false4": "./image/Property 1=Linux.png"
-            }
+            },
+            "respuesta": "no"
         }
     ]
 }

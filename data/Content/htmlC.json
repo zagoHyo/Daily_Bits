@@ -7,7 +7,8 @@
                 "false2": "Una implementación artistica",
                 "false3": "Una comida",
                 "true": "Un lenguaje de formato de texto"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Qué son las etiquetas en HTML?",
@@ -16,7 +17,8 @@
                 "false2": "Funciones",
                 "true": "Lo que da formato al texto",
                 "false3": "Todas son correctas"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Cual de estas etiquetas forma parte de una lista?",
@@ -25,7 +27,8 @@
                 "false2": "<br>",
                 "true": "<li>",
                 "false4": "<br>"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿De que manera se puede insertar un comentario en HTML?",
@@ -34,7 +37,8 @@
                 "false2": "<br> Comentario </br>",
                 "false3": "<li> Comentario </li>",
                 "false4": "Todas son correctas"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "estructura": [
@@ -46,7 +50,8 @@
                 "3": "<head></head>",
                 "4": "<body></body>",
                 "5": "</html>"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "imagen": [
@@ -57,7 +62,8 @@
                 "flase2": "./image/Property 1=express.png",
                 "true": "./image/bootstrap.png",
                 "false4": "./image/Property 1=Linux.png"
-            }
+            },
+            "respuesta": "no"
         }
     ]
 }

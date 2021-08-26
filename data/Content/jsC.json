@@ -7,7 +7,8 @@
                 "false2": "Una implementación artistica",
                 "false3": "Es un software de entrevistas",
                 "true": "Es un lenguaje que funciona del lado del cliente"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Java y JavaScript?",
@@ -16,7 +17,8 @@
                 "false2": "Tal vez",
                 "true": "No",
                 "false3": "Son cercanos"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Cual es un tipo de dato de javaScript?",
@@ -25,7 +27,8 @@
                 "false2": "String",
                 "false3": "Number",
                 "true": "Todas son correctas"
-            }
+            },
+            "respuesta": "no"
         },
         {
             "titulo": "¿Qué son las variables no declaradas y no definidas?",
@@ -34,7 +37,8 @@
                 "false2": "Variables fantasmas",
                 "false3": "Son las que se generan con las funciones flecha",
                 "false4": "Son clases"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "estructura": [
@@ -46,7 +50,8 @@
                 "3": "\"./script.js\"",
                 "4": "type=\"",
                 "5": "module\">"
-            }
+            },
+            "respuesta": "no"
         }
     ],
     "imagen": [
@@ -57,7 +62,8 @@
                 "flase2": "./image/Property 1=Windows.png",
                 "false3": "./image/Property 1=Kotlin.png",
                 "false4": "./image/Property 1=Linux.png"
-            }
+            },
+            "respuesta": "no"
         }
     ]
 }
