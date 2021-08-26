@@ -1,10 +1,16 @@
 {
-    "usuarios": [
-        {
-            "nombre": "userName",
-            "correo": "chernani2003@gmail.com",
-            "contraseña": "000",
-            "id": 1
-        }
-    ]
+  "usuarios": [
+    {
+      "nombre": "userName",
+      "correo": "chernani2003@gmail.com",
+      "contraseña": "000",
+      "id": 1
+    },
+    {
+      "nombre": "hernani",
+      "correo": "chernani@gmail.com",
+      "contraseña": "21123",
+      "id": 2
+    }
+  ]
 }

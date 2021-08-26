@@ -53,37 +53,37 @@ function section_registro(){
         <div class="field">
             <label class="label">Nombre</label>
             <div class="control">
-            <input class="input" type="text" placeholder="Nombre">
+            <input class="input" type="text" placeholder="Nombre" id="nombre">
             </div>
         </div>
         
         <div class="field">
             <label class="label">Nombre de usuario</label>
             <div class="control">
-                <input class="input" type="email" placeholder="Nombre de usuario">
+                <input class="input" type="email" id="nombreUser" placeholder="Nombre de usuario">
             </div>
         </div>
 
         <div class="field">
             <label class="label">Correo Electronico</label>
             <div class="control">
-                <input class="input" type="email" placeholder="Correo">
+                <input class="input" type="email" id="email" placeholder="Correo">
             </div>
         </div>
 
         <div class="field">
             <label class="label">Contraseña</label>
             <div class="control">
-                <input class="input" type="password" placeholder="Contraseña">
+                <input class="input" type="password" id="password" placeholder="Contraseña">
             </div>
         </div>
         
         <div class="field is-grouped m-3">
             <div class="control">
-            <button class="button is-success" id="crear">Crear usuario</button>
+            <button class="button is-success" id="registro_user">Crear usuario</button>
             </div>
             <div class="control">
-            <button class="button is-link is-light" id="cancelar"><a href="index.html">Cancelar</a></button>
+            <button class="button is-link is-light" id="cancelar"><a href="">Cancelar</a></button>
             </div>
         </div></div>
     </section>
