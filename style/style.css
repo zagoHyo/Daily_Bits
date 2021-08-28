@@ -1,3 +1,7 @@
+html{
+    background-color: black;
+}
+
 section.hero.intro {
     background-color: #873DEC;
     position:absolute !important;
@@ -14,6 +18,7 @@ section.hero.form {
 }
 
 section.hero.section_selected{
+    background-color: black !important;
     position: absolute !important;
     top:0;
     width:100vw;

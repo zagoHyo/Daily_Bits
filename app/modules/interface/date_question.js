@@ -3,7 +3,7 @@ function section_seleccion(){
     section_seleccion_pintar.innerHTML = 
 `
 <section class="hero section_selected form is-fullheight" id="formulario">
-<div class=" is-flex-direction-column is-justify-content-centered">
+<div class=" is-flex-direction-column is-justify-content-centered"  style="background-color:black;">
     <div class="has-text-centered has-text-light m-4 ">
         <h1>Practica tus conocimientos en la categoria que prefieras</h1>
     </div>

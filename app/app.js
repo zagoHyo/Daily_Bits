@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(localStorage.getItem('usuario')){
         section_seleccion()
         animacion_opciones()
+        cargar()
     }else{
         section_intro()
         document.getElementById('iniciar').addEventListener('click', () => {
