@@ -15,7 +15,8 @@ const crear = async () => {
             body: JSON.stringify({
                 nombre: nombre,
                 correo: email,
-                contraseña: contraseña
+                contraseña: contraseña,
+                estadistica: []
             }), 
             headers: { 
                 "Content-Type": "application/json; charset=UTF-8"
@@ -28,9 +29,8 @@ const inicio = async () => {
     let resp = await fetch('http://localhost:4000/usuarios');
     let data = await resp.json()
     if(data.find(user => user.correo === email)){
-        animatedForm()
-        setTimeout(function(){section_seleccion()}, 1080)
-        setTimeout(function(){animacion_opciones()}, 1080)
+        let local = data.find(user => user.correo === email)
+        localStorage.setItem('usuario', JSON.stringify(local))
     }
 }
 export {crear, inicio}

@@ -6,28 +6,37 @@ import {section_seleccion, questions_area1} from "./modules/interface/date_quest
 
 document.addEventListener('DOMContentLoaded', () => {
     pintar_Intro()
-})
-section_intro()
-document.getElementById('iniciar').addEventListener('click', () => {
-    inicio()    
-})
-let registrate = document.getElementById('registrate')
-registrate.addEventListener('click', () => {
-    section_registro()
-    let registro_user = document.getElementById('registro_user')
-    registro_user.addEventListener('click', () => {
-        crear()
-    })
+    if(localStorage.getItem('usuario')){
+        section_seleccion()
+        animacion_opciones()
+    }else{
+        section_intro()
+        document.getElementById('iniciar').addEventListener('click', () => {
+            inicio()    
+            animatedForm()
+            setTimeout(function(){section_seleccion()}, 1080)
+            setTimeout(function(){animacion_opciones()}, 1080)   
+            setTimeout(function(){cargar()}, 1080)    
+        })
+        let registrate = document.getElementById('registrate')
+        registrate.addEventListener('click', () => {
+            section_registro()
+            let registro_user = document.getElementById('registro_user')
+            registro_user.addEventListener('click', () => {
+                crear()
+            })
+            
+        })
+        document.getElementById('invitado').addEventListener('click', () => {
+            animatedForm()
+            setTimeout(function(){section_seleccion()}, 1080)
+            setTimeout(function(){animacion_opciones()}, 1080)   
+            setTimeout(function(){cargar()}, 1080)    
+        })
+    }
 })
 
-document.getElementById('invitado').addEventListener('click', () => {
-    animatedForm()
-    setTimeout(function(){section_seleccion()}, 1080)
-    setTimeout(function(){animacion_opciones()}, 1080)   
-    setTimeout(function(){cagar()}, 1080)    
-})
-
-function cagar(){
+function cargar(){
     let pregunta1 = document.getElementById('pregunta1')
     pregunta1.addEventListener('click', () => {
         questions_area1()
