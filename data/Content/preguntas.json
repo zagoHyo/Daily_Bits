@@ -1,0 +1,226 @@
+{
+    "encuestas":{
+        "HTML": {
+        "respuestaUnica": [
+            {
+                "titulo": "¿Qué es HTML?",
+                "opciones":{
+                    "r1": "Un framework",
+                    "r2": "Una implementación artistica",
+                    "r3": "Una comida",
+                    "r4": "Un lenguaje de formato de texto"
+                },
+                "respuesta": "Un lenguaje de formato de texto"
+            },
+            {
+                "titulo": "¿Qué son las etiquetas en HTML?",
+                "opciones":{
+                    "r1": "Constantes",
+                    "r2": "Funciones",
+                    "r3": "Lo que da formato al texto",
+                    "r4": "Todas son correctas"
+                },
+                "respuesta": "Lo que da formato al texto"
+            },
+            {
+                "titulo": "¿Cual de estas etiquetas forma parte de una lista?",
+                "opciones":{
+                    "r1": "<hr>",
+                    "r2": "<br>",
+                    "r3": "<li>",
+                    "r4": "<br>"
+                },
+                "respuesta": "<li>"
+            },
+            {
+                "titulo": "¿De que manera se puede insertar un comentario en HTML?",
+                "opciones": {
+                    "r1": "<!-- Comentario -->",
+                    "r2": "<br> Comentario </br>",
+                    "r3": "<li> Comentario </li>",
+                    "r4": "Todas son correctas"
+                },
+                "respuesta": "<!-- Comentario -->"
+            }
+        ],
+        "estructura": [
+            {
+                "titulo": "Organiza la estructura de un documento HTML5",
+                "opciones": {
+                    "r1": "<!DOCTYPE html>",
+                    "r2": "<html>",
+                    "r3": "<head></head>",
+                    "r4": "<body></body>",
+                    "r5": "</html>"
+                },
+                "respuesta": "<!DOCTYPE html><html><head></head><body></body></html>"
+            }
+        ],
+        "imagen": [
+            {
+                "titulo": "¿Cual Framework permite escribir css desde html atravez de clases?",
+                "opciones": {
+                    "r1": "./image/Property 1=Angular.png",
+                    "r2": "./image/Property 1=express.png",
+                    "r3": "./image/bootstrap.png",
+                    "r4": "./image/Property 1=Linux.png"
+                },
+                "respuesta": "./image/bootstrap.png"
+            }
+        ]
+        },
+        "CSS": {
+            "respuestaUnica": [
+                {
+                    "titulo": "¿Qué es CSS?",
+                    "opciones":{
+                        "r1": "Un framework",
+                        "r2": "Una implementación artistica",
+                        "r3": "Una comida",
+                        "r4": "Un lenguaje que da vida al HTML"
+                    },
+                    "respuesta": "Un lenguaje que da vida al HTML"
+                },
+                {
+                    "titulo": "¿Cual es la diferencia entre HTML y CSS?",
+                    "opciones":{
+                        "r1": "HTML es mas denso",
+                        "r2": "CSS es un framework",
+                        "r3": "HTML crea contenido y css le da color al contenido",
+                        "r4": "Todas son correctas"
+                    },
+                    "respuesta": "HTML crea contenido y css le da color al contenido"
+                },
+                {
+                    "titulo": "¿Como puedes aplicar estilos CSS a una página web?",
+                    "opciones":{
+                        "r1": "Con la etiqueta <style>",
+                        "r2": "Con Links",
+                        "r3": "Con clases",
+                        "r4": "Todas son correctas"
+                    },
+                    "respuesta": "Todas son correctas"
+                },
+                {
+                    "titulo": "¿Cuantos tipos de css existen?",
+                    "opciones": {
+                        "r1": "5",
+                        "r2": "2",
+                        "r3": "10",
+                        "r4": "1"
+                    },
+                    "respuesta": "5"
+                }
+            ],
+            "estructura": [
+                {
+                    "titulo": "Organiza la estructura para vincular el archivo HTML con el archivo CSS",
+                    "opciones": {
+                        "r1": "<Link",
+                        "r2": " rel=",
+                        "r3": "\"stylesheet\" ",
+                        "r4": "href=\"",
+                        "r5": "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\">"
+                    },
+                    "respuesta": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\""
+                }
+            ],
+            "imagen": [
+                {
+                    "titulo": "¿Cual Framework permite escribir css desde html atravez de clases?",
+                    "opciones": {
+                        "r1": "./image/bootstrap.png",
+                        "r2": "./image/Property 1=express.png",
+                        "r3": "./image/Property 1=Angular.png",
+                        "r4": "./image/Property 1=Linux.png"
+                    },
+                    "respuesta": "./image/bootstrap.png"
+                }
+            ]
+        },
+        "JS": {
+            "respuestaUnica": [
+                {
+                    "titulo": "¿Qué es JS?",
+                    "opciones":{
+                        "r1": "Un framework",
+                        "r2": "Una implementación artistica",
+                        "r3": "Es un software de entrevistas",
+                        "r4": "Es un lenguaje que funciona del lado del cliente"
+                    },
+                    "respuesta": "Es un lenguaje que funciona del lado del cliente"
+                },
+                {
+                    "titulo": "¿Java y JavaScript?",
+                    "opciones":{
+                        "r1": "Si",
+                        "r2": "Tal vez",
+                        "r3": "No",
+                        "r4": "Son cercanos"
+                    },
+                    "respuesta": "No"
+                },
+                {
+                    "titulo": "¿Cual es un tipo de dato de javaScript?",
+                    "opciones":{
+                        "r1": "Booleano",
+                        "r2": "String",
+                        "r3": "Number",
+                        "r4": "Todas son correctas"
+                    },
+                    "respuesta": "Todas son correctas"
+                },
+                {
+                    "titulo": "¿Qué son las variables no declaradas y no definidas?",
+                    "opciones": {
+                        "r1": "No existen programa y no tienen asignada ningun valor",
+                        "r2": "Variables fantasmas",
+                        "r3": "Son las que se generan con las funciones flecha",
+                        "r4": "Son clases"
+                    },
+                    "respuesta": "No existen programa y no tienen asignada ningun valor"
+                }
+            ],
+            "estructura": [
+                {
+                    "titulo": "Organiza el enlace entre un archivo html y un archivo javascript con modulos ",
+                    "opciones": {
+                        "r1": "<script",
+                        "r2": " src=",
+                        "r3": "\"./script.js\" ",
+                        "r4": "type=\"",
+                        "r5": "module\">"
+                    },
+                    "respuesta": "<script src=\"./script.js\" type=\"module\""
+                }
+            ],
+            "imagen": [
+                {
+                    "titulo": "¿Qué empresa desarrolló JavaScript?",
+                    "opciones": {
+                        "r1": "./image/Netscape_logo.svg.png",
+                        "r2": "./image/Property 1=Windows.png",
+                        "r3": "./image/Property 1=Kotlin.png",
+                        "r4": "./image/Property 1=Linux.png"
+                    },
+                    "respuesta": "./image/Netscape_logo.svg.png"
+                }
+            ]
+        },
+        "respuestaHTML":{
+            "respuestaUnica":[],
+            "estructura": [],
+            "image": []
+        },
+        "respuestaCSS":{
+            "respuestaUnica":[],
+            "estructura": [],
+            "image": []
+        },
+        "respuestaJS":{
+            "respuestaUnica":[],
+            "estructura": [],
+            "image": []
+        }
+    }
+}

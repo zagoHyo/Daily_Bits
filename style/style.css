@@ -1,6 +1,7 @@
 section.hero.intro {
     background-color: #873DEC;
     position:absolute !important;
+    top: 0;
     width:100vw;
     z-index: 999;
 }
@@ -9,12 +10,14 @@ main#main{
 }
 section.hero.form {
     background-color: black;
-    z-index: 998;
+    z-index: 998 !important;
 }
+
 section.hero.section_selected{
     position: absolute !important;
     top:0;
     width:100vw;
+    z-index: 997 !important;
 }
 
 .button.is-danger {
@@ -28,6 +31,7 @@ article.media{
 .button.is-danger {
     position: static ;
     width: 50%;
+    justify-content: center;
 }
 .button.is-success {
     position: static ;
@@ -120,4 +124,43 @@ div.hero-foot{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 65px 65px;
+    justify-content:center;
+}
+
+/* Cuestions */
+#preguntas{
+    overflow: hidden;
+    position:absolute !important;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    z-index: 995 !important;
+    top: 0;
+}
+div.columns.boton{
+    display:flex;
+    justify-content:center;
+
+}
+
+button.button{
+    background-color:rgba(35, 46, 53, 1);
+    color: white;
+    display:flex;
+    justify-content:flex-start;
+    max-width: 99vw;
+    height: 60px
+}
+button.button p{
+    max-width: 99vw;
+    font-size: 13px;
+}
+button.button.nav{
+    width: 328px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: rgba(212, 202, 243, 1) !important;
+    position:absolute;
+    bottom:4%;
+    justify-content:center;
 }

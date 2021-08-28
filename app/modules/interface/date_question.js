@@ -8,19 +8,19 @@ function section_seleccion(){
         <h1>Practica tus conocimientos en la categoria que prefieras</h1>
     </div>
     <div id="questions">
-        <a href="">
+        <a id="pregunta1">
         <div id="html"></div>
         </a>
         <label class="has-text-light">HTML</label>
         <div id="items">
             <div id="questions">
-                <a href="">
+                <a id="pregunta2">
                     <div id="css"></div>
                 </a>
                 <label class="has-text-light">CSS</label>
             </div>
             <div id="questions">
-                <a href="">
+                <a id="pregunta3">
                     <div id="js"></div>
                 </a>
                 <label class="has-text-light">JS</label>
@@ -28,13 +28,13 @@ function section_seleccion(){
         </div>
         <div id="items">
             <div id="questions">
-                <a href=""> 
+                <a id="pregunta"> 
                     <div id="figma"></div>
                 </a>
                 <label class="has-text-light">FIGMA</label>
             </div>
             <div id="questions">
-                <a href="">
+                <a id="pregunta">
                   <div id="ux"></div>
                 </a>
                 <label class="has-text-light">UX</label>
@@ -59,4 +59,20 @@ function section_seleccion(){
 `
 }
 
-export {section_seleccion}
+function questions_area1(){
+    let section_seleccion_pintar = document.querySelector('.quess')
+    section_seleccion_pintar.innerHTML = ''
+    let questions_area_pintar = document.querySelector('#preguntas')
+    questions_area_pintar.innerHTML = `
+    <div class="columns is-mobile" style="height:5vh" id="navbar_top"><!-- Barra de navegacion --></div>
+    <div class="columns is-mobile m-3" style="height:30vh" id="pintarEnunciado"><!-- Enunciado --></div>
+    <div class="columns hero">
+        <div id="pintarRespuesta"><!-- Respuestas posibles --></div>
+    </div>
+    <div class="columns boton"style="height:15vh" id="btn_disable">
+        <button class="button nav" title="button" disabled>Disabled</button>    
+    </div>
+    `
+}
+
+export {section_seleccion, questions_area1}
