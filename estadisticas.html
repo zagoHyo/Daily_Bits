@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section class="hero has-background-black is-fullheight">
+        <div class="m-5">
+            <h1 class="title has-text-light">Estádistica</h1>
+            <div>
+                <button class="button m-3" style="width:80vw">
+                    <p>Tiempo de estudio (horas):   1</p>
+                </button>
+                <button class="button m-3" style="width:80vw">
+                    <p>Respuestas Correctas: <div id="correctas">Content1</div></p>
+                </button>
+                <button class="button m-3" style="width:80vw">
+                    <p>Respuestas Incorrectas: <div id="Incorrectas">Content2</div></p>
+                </button>
+                <button class="button m-3" style="width:80vw">
+                    <p>Respuestas contestadas:  <div id="contestadas"> Content3</div></p>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar" role="navigation" aria-label="main navigation" style="background: #232E35;  height:69px; position:fixed; bottom:0; width:100vw; padding: 12px 16px 12px 16px">
+            <div class="navbar-brand columns has-text-centered ">
+                <div class="column items">
+                    <a href="index.html" id="home_nav"><img src="./image/navbar/normal/home.png" alt=""></a>
+                </div>
+                <div class="column items">
+                    <a id="estadistica_nav"><img src="./image/navbar/verde/estadistica.png" alt=""></a>
+                </div>
+                <div class="column items">
+                    <a id="opciones_nav"><img src="./image/navbar/normal/perfil.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <script src="./app/estadistica.js"></script>
+</body>
+</html>

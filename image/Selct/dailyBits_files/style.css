@@ -1,0 +1,169 @@
+html{
+    background-color: black;
+}
+
+section.hero.intro {
+    background-color: #873DEC;
+    position:absolute !important;
+    top: 0;
+    width:100vw;
+    z-index: 999;
+}
+main#main{
+    background-color:black
+}
+section.hero.form {
+    z-index: 998 !important;
+}
+
+section.hero.section_selected{
+    position: absolute !important;
+    top:0;
+    width:100vw;
+    z-index: 997 !important;
+}
+
+.button.is-danger {
+    position: static ;
+}
+
+article.media{
+    width:46vw;
+}
+
+.button.is-danger {
+    position: static ;
+    width: 50%;
+    justify-content: center;
+}
+.button.is-success {
+    position: static ;
+}
+.input, .textarea {
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    width: 65vh;
+    position: static;
+}
+
+body{
+    overflow: hidden
+}
+@media (max-width: 560px){
+    .input, .textarea{ 
+        width: 50vh !important;
+    }
+    .button.is-danger {
+        height:6vh;
+        width: 100% !important;
+    }
+    article.media{
+        width:100%;
+    }
+    h1.title{
+        font-size: 2rem !important;
+    }
+}
+
+#questions{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#items{
+    display:flex;
+}
+
+div.hero-foot{
+    width:100vw;
+    position:fixed;
+    bottom: 0;
+}
+
+/* Quuestions */
+#html {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/options/Ellipse 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+}
+.items{
+    width: 32vw
+}
+#css {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/options/Ellipse 9-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+}
+#js {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/options/Ellipse 9-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px 65px;
+}
+#figma {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/options/Ellipse 9-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px 65px;
+}
+#ux {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-image: url("../image/options/Ellipse 9-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px 65px;
+    justify-content:center;
+}
+
+/* Cuestions */
+#preguntas{
+    overflow: hidden;
+    position:absolute !important;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    z-index: 995 !important;
+    top: 0;
+}
+div.columns.boton{
+    display:flex;
+    justify-content:center;
+
+}
+
+button.button{
+    background-color:rgba(35, 46, 53, 1);
+    color: white;
+    display:flex;
+    justify-content:flex-start;
+    max-width: 99vw;
+    height: 60px
+}
+button.button p{
+    max-width: 99vw;
+    font-size: 13px;
+}
+button.button.nav{
+    width: 328px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: rgba(212, 202, 243, 1) !important;
+    position:absolute;
+    bottom:4%;
+    justify-content:center;
+}

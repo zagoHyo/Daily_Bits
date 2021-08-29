@@ -27,6 +27,40 @@
         "¿Qué son las etiquetas en HTML?"
       ],
       "id": 2
+    },
+    {
+      "nombre": "hernani",
+      "correo": "buhoprogamming@gmail.com",
+      "contraseña": "222222222222",
+      "estadistica": [
+        {
+          "correctasT": 0,
+          "correctasHTML": 0,
+          "correctasCSS": 0,
+          "correctasJS": 0
+        },
+        {}
+      ],
+      "vida": 3,
+      "respuesta": [],
+      "id": 3
+    },
+    {
+      "nombre": "hernani",
+      "correo": "chernani@gmail.com21",
+      "contraseña": "2222222222",
+      "estadistica": [
+        {
+          "correctasT": 0,
+          "correctasHTML": 0,
+          "correctasCSS": 0,
+          "correctasJS": 0
+        },
+        {}
+      ],
+      "vida": 4,
+      "respuesta": [],
+      "id": 4
     }
   ]
 }

@@ -29,7 +29,7 @@ function section_option() {
                 <div class="column items">
                     <a id="home_nav"><img src="./image/navbar/normal/home.png" alt=""></a>
                 </div>
-                <div class="column items">
+                <div class="column items" href="estadistica.html">
                     <a id="estadistica_nav"><img src="./image/navbar/normal/estadistica.png" alt=""></a>
                 </div>
                 <div class="column items">

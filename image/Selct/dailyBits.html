@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dailyBits</title>
+    
+    
+    
+<link rel="stylesheet" href="./dailyBits_files/bulma.min.css"><link rel="stylesheet" href="./dailyBits_files/css"><link rel="stylesheet" href="./dailyBits_files/style.css"></head>
+<body style="background:black">
+    <main id="main">
+        <div class="intro" style="transform: translate(2000px, 0px);">
+    <section class="hero intro is-fullheight" id="animated">
+        <div class="hero-body is-justify-content-center">
+            <img src="./dailyBits_files/Color=Purple, Container=Yes.png" alt="">
+        </div>
+    </section>
+    </div>
+        <div class="form"><!-- Formulario Registro-Login-Invitado --></div>
+        <div class="quess"></div>
+        <div id="preguntas" style="height: 100vh; width:100vw; display:flex; z-index: 10; position: absolute !important;" class="has-background-black">
+    <div class="columns is-mobile" style="height:5vh" id="navbar_top">
+    <div class="column is-1 m-3">
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="./dailyBits_files/Union.png" height="50px" width="50px" alt="">
+        </a>
+    </div>
+    <div class="column m-2">
+        <progress class="progress is-success is-small" value="0" max="5"></progress>
+    </div>
+    <div class="column is-2 m-2 has-text-light"><img src="./dailyBits_files/Corazon.png" alt="" height="20px" width="20px">3</div>
+    </div>
+    <div class="columns is-mobile m-3" style="height:30vh" id="pintarEnunciado"><!-- Enunciado --></div>
+    <div class="columns hero">
+        <div id="pintarRespuesta"><!-- Respuestas posibles --></div>
+    </div>
+    <div class="columns boton" style="height:15vh" id="btn_disable">
+        <button class="button nav" title="button" disabled="">Disabled</button>    
+    </div>
+    </div>
+        <div id="opciones"></div>
+    </main>
+    
+  <!-- Selecionar estudio + botNav -->
+<script src="./dailyBits_files/app.js.download" type="module"></script>
+<script src="./dailyBits_files/gsap.min.js.download"></script>
+<script src="./dailyBits_files/progressbar.min.js.download"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
