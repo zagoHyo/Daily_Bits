@@ -2,8 +2,10 @@ import {pintar_Intro, section_intro, section_registro} from "./modules/import/da
 import {intro, animatedForm, alerta} from "./modules/import/animation_form.js"
 import { crear,inicio,recopilador } from "./modules/import/apiFake_form.js"
 import {animacion_opciones} from "./modules/interface/animation_question.js"
-import {section_seleccion, questions_area1} from "./modules/interface/date_question.js"
+import {section_seleccion, questions_area1, questions_area2} from "./modules/interface/date_question.js"
 import { section_option } from "./modules/interface/option_section/data_option.js"
+
+// questions_area2()
 
 document.addEventListener('DOMContentLoaded', () => {
     pintar_Intro()
@@ -88,11 +90,10 @@ async function decidirEncuesta(desicion){
 }
 
 function mandarPregunta(data, desicion){
-    let n_p = 1
+    let n_p = 2
     // Math.random() * (4-1) + 1
-    let corazon = 3
     let usuario = JSON.parse(localStorage.getItem('usuario'))
-    const {respuesta, id, estadistica} = usuario
+    const {respuesta, id, estadistica, vida} = usuario
     const {imagen, estructura, respuestaUnica} = data
     let navbar_top = document.getElementById('navbar_top')
     
@@ -105,14 +106,14 @@ function mandarPregunta(data, desicion){
     <div class="column m-2">
         <progress class="progress is-success is-small" value="60" max="100"></progress>
     </div>
-    <div class="column is-2 m-2 has-text-light"><img src="./image/estructura_questions/Corazon.png" alt="" height="20px" width="20px">${corazon}</div>
+    <div class="column is-2 m-2 has-text-light"><img src="./image/estructura_questions/Corazon.png" alt="" height="20px" width="20px">${vida}</div>
     `
 
     if(n_p == 1){
         respuestaUnicaFiltro(respuestaUnica,data, desicion)
     }
     else if(n_p == 2){
-        imagenFiltro(imagen)
+        imagenFiltro(imagen, data, desicion)
     }
     else if(n_p==3){
         estructuraFiltro(estructura)
@@ -125,7 +126,7 @@ function respuestaUnicaFiltro(dates, devolver, nL){
     const {respuesta} = usuario
     respuesta.map(function (element, index) {
         if(element === dates[n].titulo){
-            console.log("=====FUNciono1=======")
+            mandarPregunta(devolver)
         }else{
             let pintarEnunciado = document.getElementById('pintarEnunciado')
             pintarEnunciado.innerHTML = `
@@ -198,6 +199,70 @@ const evaluarRespuesta = (object,dates, n, devolver, nL) => {
     })
 }
 
+function imagenFiltro(dates,devolver, nL){
+    console.log(dates[0].opciones.r3)
+    questions_area2()
+    let pintarEnunciado = document.getElementById('pintarEnunciado')
+    pintarEnunciado.innerHTML = `
+    <h1 class="subtitle has-text-light">${dates[0].titulo}</h1>
+    `
+    let pintarRespuesta = document.getElementById('pintarRespuesta')
+    pintarRespuesta.innerHTML = `
+    <div class="is-justify-content-center is-flex">
+    <button class="button m-2" style="height:auto; width:auto">
+        <img src="${dates[0].opciones.r1}" class="image" style="height:15vh; width:30vw" alt="">
+    </button>
+    <button class="button m-2" style="height:auto; width:auto">
+        <img src="${dates[0].opciones.r2}" class="image" style="height:15vh; width:30vw" alt="">
+    </button>
+    </div>
+    <div class="is-justify-content-center is-flex">
+        <button class="button m-2" style="height:auto; width:auto">
+            <img src="${dates[0].opciones.r3}" class="image" style="height:15vh; width:30vw" alt="">
+        </button>
+        <button class="button m-2" style="height:auto; width:auto">
+            <img src="${dates[0].opciones.r4}" class="image" style="height:15vh; width:30vw" alt="">
+        </button>
+    </div>
+    `
+    pintarRespuesta.addEventListener('click', e => {
+        let btn_disable = document.getElementById('btn_disable')
+        btn_disable.innerHTML = `
+        <button class="button nav" title="button" id="comprobar">Comprobar</button>    
+        `
+        capturarDatosRespuestaImage(e, dates, devolver, nL)
+    })
+}
+
+function capturarDatosRespuestaImage(e,dates, devolver, nL){
+    if(e.target.classList.contains('image')){
+        evaluarRespuestaImage(e.target.parentElement, dates,devolver, nL)
+    }
+}
+
+const evaluarRespuestaImage = (object,dates, devolver, nL) => {
+    let box = {
+        respuesta: object.querySelector('img').src
+    }
+    let comprobar = document.getElementById('comprobar')
+    comprobar.addEventListener('click', () => {
+        if(dates[0].respuesta === box.respuesta){
+            let btn_disable = document.getElementById('btn_disable')
+            btn_disable.innerHTML = `
+            <div class="container has-background-success-light" style="width:100vw; position:fixed; bottom:0; display: flex; flex-direction: column;height:20vh;">
+                <h3 class="subtitle" style="text-align: center; margin-top:10px">¡Buen Trabajo!</h3>
+                <button class="button is-success" style="justify-content: center; height: 50px; margin: 0px 30px;" id="continuar">Continuar</button>
+            </div>
+            `
+            let continuar = document.getElementById('continuar')
+            continuar.addEventListener('click', () => {
+                recopiladorLocal(dates[0].titulo, devolver, nL)
+                btn_disable.innerHTML = `<button class="button nav" title="button" disabled>Disabled</button>`
+            })
+        }
+
+    })
+}
 const recopiladorLocal = async (respuestaLocal,devolver, nL) => {
     let usuario = JSON.parse(localStorage.getItem('usuario'))
     const {respuesta, estadistica} = usuario

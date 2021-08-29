@@ -2,6 +2,7 @@ function section_option() {
     let section_seleccion_pintar = document.querySelector('.quess')
     section_seleccion_pintar.innerHTML = ''
     let optiones = document.querySelector('#opciones')
+    optiones.innerHTML = ''
     optiones.innerHTML = `
     <section class="hero has-background-black is-fullheight">
         <div class="m-5 is-flex is-justify-content-center">

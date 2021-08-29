@@ -215,12 +215,12 @@
                 {
                     "titulo": "¿Qué empresa desarrolló JavaScript?",
                     "opciones": {
-                        "r1": "./image/Netscape_logo.svg.png",
-                        "r2": "./image/Property 1=Windows.png",
-                        "r3": "./image/Property 1=Kotlin.png",
-                        "r4": "./image/Property 1=Linux.png"
+                        "r1": "./image/selct/Netscape_logo.svg.png",
+                        "r2": "./image/selct/Property 1=Windows.png",
+                        "r3": "./image/selct/Property 1=Kotlin.png",
+                        "r4": "./image/selct/Property 1=Linux.png"
                     },
-                    "respuesta": "./image/Netscape_logo.svg.png",
+                    "respuesta": "http://127.0.0.1:5500/image/selct/Netscape_logo.svg.png",
                     "visto": false
                 }
             ]

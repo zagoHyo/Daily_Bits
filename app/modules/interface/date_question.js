@@ -77,4 +77,35 @@ function questions_area1(){
     `
 }
 
-export {section_seleccion, questions_area1}
+function questions_area2(){
+    let section_seleccion_pintar = document.querySelector('.quess')
+    section_seleccion_pintar.innerHTML = ''
+    let questions_area_pintar = document.querySelector('#preguntas')
+    questions_area_pintar.innerHTML = `
+    <div class="columns is-mobile" style="height:10vh" id="navbar_top">
+                <div class="column is-1 m-3">
+                    <a href="">
+                        <img src="./image/estructura_questions/Union.png" height="50px" width="50px" alt="">
+                    </a>
+                </div>
+                <div class="column m-2">
+                            <progress class="progress is-success is-small" value="60" max="100"></progress>
+                </div>
+            <div class="column is-2 m-2 has-text-light"><img src="./image/estructura_questions/Corazon.png" alt="" height="20px" width="20px">1</div>
+            </div>
+        <div class="columns is-mobile m-3 is-justify-content-center" style="height:20vh" id="pintarEnunciado">
+        <!-- Enunciado --></div>
+            <div class="columns is-flex is-justify-content-center is-align-content-center" style="width:100vw;">
+                <div id="pintarRespuesta" class="is-justify-content-center ">
+                   
+            <!-- Respuestas posibles --></div>
+            </div>
+            </div>
+            <div class="columns boton"style="height:15vh; width:105vw; position: absolute; bottom:4%;" id="btn_disable">
+                <button class="button nav" title="button" disabled>Disabled</button>    
+            </div>
+        </div>
+    `
+}
+
+export {section_seleccion, questions_area1, questions_area2}

@@ -12,16 +12,19 @@
       "contraseña": "222222222222",
       "estadistica": [
         {
-          "correctasT": 0,
-          "correctasHTML": 0,
+          "correctasT": 3,
+          "correctasHTML": 1,
           "correctasCSS": 0,
-          "correctasJS": 0
+          "correctasJS": 2
         },
         {}
       ],
       "vida": 4,
       "respuesta": [
-        "¿Cual es la diferencia entre HTML y CSS?"
+        "¿Cual es la diferencia entre HTML y CSS?",
+        "¿Qué es JS?",
+        "¿Cual es un tipo de dato de javaScript?",
+        "¿Qué son las etiquetas en HTML?"
       ],
       "id": 2
     }
