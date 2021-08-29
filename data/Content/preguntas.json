@@ -10,7 +10,8 @@
                     "r3": "Una comida",
                     "r4": "Un lenguaje de formato de texto"
                 },
-                "respuesta": "Un lenguaje de formato de texto"
+                "respuesta": "Un lenguaje de formato de texto",
+                "visto": false
             },
             {
                 "titulo": "¿Qué son las etiquetas en HTML?",
@@ -20,7 +21,8 @@
                     "r3": "Lo que da formato al texto",
                     "r4": "Todas son correctas"
                 },
-                "respuesta": "Lo que da formato al texto"
+                "respuesta": "Lo que da formato al texto",
+                "visto": false
             },
             {
                 "titulo": "¿Cual de estas etiquetas forma parte de una lista?",
@@ -30,7 +32,8 @@
                     "r3": "<li>",
                     "r4": "<br>"
                 },
-                "respuesta": "<li>"
+                "respuesta": "<li>",
+                "visto": false
             },
             {
                 "titulo": "¿De que manera se puede insertar un comentario en HTML?",
@@ -40,7 +43,8 @@
                     "r3": "<li> Comentario </li>",
                     "r4": "Todas son correctas"
                 },
-                "respuesta": "<!-- Comentario -->"
+                "respuesta": "<!-- Comentario -->",
+                "visto": false
             }
         ],
         "estructura": [
@@ -53,7 +57,8 @@
                     "r4": "<body></body>",
                     "r5": "</html>"
                 },
-                "respuesta": "<!DOCTYPE html><html><head></head><body></body></html>"
+                "respuesta": "<!DOCTYPE html><html><head></head><body></body></html>",
+                "visto": false
             }
         ],
         "imagen": [
@@ -65,7 +70,8 @@
                     "r3": "./image/bootstrap.png",
                     "r4": "./image/Property 1=Linux.png"
                 },
-                "respuesta": "./image/bootstrap.png"
+                "respuesta": "./image/bootstrap.png",
+                "visto": false
             }
         ]
         },
@@ -79,7 +85,8 @@
                         "r3": "Una comida",
                         "r4": "Un lenguaje que da vida al HTML"
                     },
-                    "respuesta": "Un lenguaje que da vida al HTML"
+                    "respuesta": "Un lenguaje que da vida al HTML",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Cual es la diferencia entre HTML y CSS?",
@@ -89,7 +96,8 @@
                         "r3": "HTML crea contenido y css le da color al contenido",
                         "r4": "Todas son correctas"
                     },
-                    "respuesta": "HTML crea contenido y css le da color al contenido"
+                    "respuesta": "HTML crea contenido y css le da color al contenido",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Como puedes aplicar estilos CSS a una página web?",
@@ -99,7 +107,8 @@
                         "r3": "Con clases",
                         "r4": "Todas son correctas"
                     },
-                    "respuesta": "Todas son correctas"
+                    "respuesta": "Todas son correctas",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Cuantos tipos de css existen?",
@@ -109,7 +118,8 @@
                         "r3": "10",
                         "r4": "1"
                     },
-                    "respuesta": "5"
+                    "respuesta": "5",
+                    "visto": false
                 }
             ],
             "estructura": [
@@ -122,7 +132,8 @@
                         "r4": "href=\"",
                         "r5": "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\">"
                     },
-                    "respuesta": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\""
+                    "respuesta": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\"",
+                    "visto": false
                 }
             ],
             "imagen": [
@@ -134,7 +145,8 @@
                         "r3": "./image/Property 1=Angular.png",
                         "r4": "./image/Property 1=Linux.png"
                     },
-                    "respuesta": "./image/bootstrap.png"
+                    "respuesta": "./image/bootstrap.png",
+                    "visto": false
                 }
             ]
         },
@@ -148,7 +160,8 @@
                         "r3": "Es un software de entrevistas",
                         "r4": "Es un lenguaje que funciona del lado del cliente"
                     },
-                    "respuesta": "Es un lenguaje que funciona del lado del cliente"
+                    "respuesta": "Es un lenguaje que funciona del lado del cliente",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Java y JavaScript?",
@@ -158,7 +171,8 @@
                         "r3": "No",
                         "r4": "Son cercanos"
                     },
-                    "respuesta": "No"
+                    "respuesta": "No",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Cual es un tipo de dato de javaScript?",
@@ -168,7 +182,8 @@
                         "r3": "Number",
                         "r4": "Todas son correctas"
                     },
-                    "respuesta": "Todas son correctas"
+                    "respuesta": "Todas son correctas",
+                    "visto": false
                 },
                 {
                     "titulo": "¿Qué son las variables no declaradas y no definidas?",
@@ -178,7 +193,8 @@
                         "r3": "Son las que se generan con las funciones flecha",
                         "r4": "Son clases"
                     },
-                    "respuesta": "No existen programa y no tienen asignada ningun valor"
+                    "respuesta": "No existen programa y no tienen asignada ningun valor",
+                    "visto": false
                 }
             ],
             "estructura": [
@@ -191,7 +207,8 @@
                         "r4": "type=\"",
                         "r5": "module\">"
                     },
-                    "respuesta": "<script src=\"./script.js\" type=\"module\""
+                    "respuesta": "<script src=\"./script.js\" type=\"module\"",
+                    "visto": false
                 }
             ],
             "imagen": [
@@ -203,24 +220,10 @@
                         "r3": "./image/Property 1=Kotlin.png",
                         "r4": "./image/Property 1=Linux.png"
                     },
-                    "respuesta": "./image/Netscape_logo.svg.png"
+                    "respuesta": "./image/Netscape_logo.svg.png",
+                    "visto": false
                 }
             ]
-        },
-        "respuestaHTML":{
-            "respuestaUnica":[],
-            "estructura": [],
-            "image": []
-        },
-        "respuestaCSS":{
-            "respuestaUnica":[],
-            "estructura": [],
-            "image": []
-        },
-        "respuestaJS":{
-            "respuestaUnica":[],
-            "estructura": [],
-            "image": []
         }
     }
 }

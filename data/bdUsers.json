@@ -1,15 +1,28 @@
 {
   "usuarios": [
     {
-      "nombre": "userName",
-      "correo": "chernani2003@gmail.com",
-      "contraseña": "000",
+      "nombre": "nombre",
+      "correo": "email",
+      "contraseña": "contraseña",
       "id": 1
     },
     {
       "nombre": "hernani",
       "correo": "chernani@gmail.com",
-      "contraseña": "2222222",
+      "contraseña": "222222222222",
+      "estadistica": [
+        {
+          "correctasT": 0,
+          "correctasHTML": 0,
+          "correctasCSS": 0,
+          "correctasJS": 0
+        },
+        {}
+      ],
+      "vida": 4,
+      "respuesta": [
+        "¿Cual es la diferencia entre HTML y CSS?"
+      ],
       "id": 2
     }
   ]

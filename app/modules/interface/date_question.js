@@ -1,4 +1,6 @@
 function section_seleccion(){
+    let optiones = document.querySelector('#opciones')
+    optiones.innerHTML = ''
     let section_seleccion_pintar = document.querySelector('.quess')
     section_seleccion_pintar.innerHTML = 
 `
@@ -43,13 +45,13 @@ function section_seleccion(){
         <nav class="navbar" role="navigation" aria-label="main navigation" style="background: #232E35;  height:69px; position:fixed; bottom:0; width:100vw; padding: 12px 16px 12px 16px">
             <div class="navbar-brand columns has-text-centered ">
                 <div class="column items">
-                    <a><img src="./image/navbar/verde/home.png" alt=""></a>
+                    <a id="home_nav"><img src="./image/navbar/verde/home.png" alt=""></a>
                 </div>
                 <div class="column items">
-                    <img src="./image/navbar/normal/estadistica.png" alt=""></a>
+                    <a id="estadistica_nav"><img src="./image/navbar/normal/estadistica.png" alt=""></a>
                 </div>
                 <div class="column items">
-                    <a><img src="./image/navbar/normal/perfil.png" alt=""></a>
+                    <a id="opciones_nav"><img src="./image/navbar/normal/perfil.png" alt=""></a>
                 </div>
             </div>
         </nav>
